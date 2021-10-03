@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 #define ll long long
-#define FAST1 ios_base::sync_with_stdio(false);
-#define FAST2 cin.tie(NULL);
 using namespace std;
 
 void merge(int a[],int l,int m,int r){
@@ -56,30 +54,9 @@ void mergeSort(int a[],int l,int r){
 
 
 int main() {
-	FAST1;
-	FAST2;
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 	int v[] = {17,2,41,54,1};
-// 	for(int i=0;i<v.size()-1;i++){
-// 	    int idx=i;
-// 	    int m = v[i];
-// 	    for(int j=i+1;j<v.size();j++){
-// 	        if(v[idx]>v[j]){
-// 	            idx = j;
-// 	        }
-// 	    }
-// 	    int t = v[idx];
-// 	    v[idx] = v[i];
-// 	    v[i] = t;
-// 	}
-// 	for(int i=1;i<v.size();i++){
-// 	    int j=i-1;
-// 	    int c=v[i];
-// 	    while(c<v[j] and j>=0){
-// 	        v[j+1]=v[j];
-// 	        j--;
-// 	    }
-// 	    v[j+1]=c;
-// 	}
     mergeSort(v,0,4);
 	for(int i=0;i<=4;i++){
 	    cout<<v[i]<<"  ";
