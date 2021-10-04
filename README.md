@@ -1,3 +1,3 @@
 # Data-Structure & Algorithms
 
-#### Code for Data structures and Algorithms in C++.
+#### Implement All Data structures and Algorithms in C++.
