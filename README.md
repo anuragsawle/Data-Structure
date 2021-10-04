@@ -1,2 +1,3 @@
-# Data-Structure
-Implement Merge sort in C++ with Fast IO
+# Data-Structure & Algorithms
+
+#### Code for Data structures and Algorithms in C++.
